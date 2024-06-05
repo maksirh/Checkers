@@ -193,3 +193,8 @@ class Game:
         self.board = Board()
         self.current_turn = 'white'
         self.must_capture = False
+
+    def restart_game(self):
+        self.board = Board()
+        self.current_turn = 'white'
+        self.must_capture = False
